@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Snake</title>
+    <style>
+      #winscreen {
+        background-color: rgba(160, 160, 160, 0.212);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <div id="winscreen" hidden>
+        <h2>You Win!!!</h2>
+        <h3 id="lenghtsnake">Length: 1</h3s>
+        <button onclick="window.location.reload()">Try Again?</button><br><br>
+      </div>
+      <div id="UI">
+        <h1>Snake</h1>
+        <h2 id="lenghtsnake">Length: 1</h2>
+      </div>
+      <canvas id="favicon" height="320" width="320"></canvas>
+      </center>
+    <script src="favicon.js"></script>
+  </body>
+</html>
